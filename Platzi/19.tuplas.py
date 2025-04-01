@@ -25,5 +25,6 @@ print("-1 =>", numbers[-1])  #para llamar al ultimo
 
 
 print(string)
-print(string.index("laura"))
-print(string.count("Emma"))
+print(string.index("laura")) #para decir la posición en este caso es 0 
+print(string.count("Emma")) #para contar el numero de veces que esta en este caso 2
+
