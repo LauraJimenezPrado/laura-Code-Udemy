@@ -1,0 +1,12 @@
+
+number_of_class = 17
+advance_platzi_course = (100/38) * number_of_class
+print(advance_platzi_course, "%")
+
+platzi_classes = 38
+Platzi_media = platzi_classes / 2
+print(Platzi_media)
+
+number_of_hours = 15
+advance_platzi_course = (100/107) * number_of_class
+print(advance_platzi_course, "%")
