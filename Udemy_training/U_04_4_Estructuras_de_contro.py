@@ -10,32 +10,44 @@ temperatura = 15
 if temperatura > 20:
     print("Hace calor")
 
+"""si el usuario escribe un numero menor no va imprimir algo, solo si es un numero mayor"""
 temperatura = int(input("Dime la temperatura: "))
 if temperatura > 20:
     print("hace calor")
 
+
+"""se deben cumplir las dos para que imprima algo"""
 temperatura = int(input("Dime la temperatura: "))
 if temperatura > 16 and temperatura < 22:
     print("El clima es agradable")
 
+
+"""tambien lo podemos usar para saber si algo esta incluido en una colección"""
 amigos = ["Juan", "Ana", "Laura"]
-nombre =input("Die tu nombre: ")
+nombre =input("Dime tu nombre: ")
 if nombre in amigos:
     print(f"{nombre} esta en mi grupo de amigos")
 
-
+"""va imprimir hace calor porque se le asigno que el valor es verdero """
 temperatura = True
 if temperatura:
     print("Hace calor")
 
+"""esto no tiene sentido, pero siempre que se le asigna true va imprimirlo"""
 if True:
     print("Hace calor")
 
+
+
+"""es importante conservar la jerarquia de las lineas, para que python sepa que esta dentro del if"""
+"""se van a imprimir las 3, las dos primeras porque se cumple el ir y la otra porque esta afuera y siempre se va imprimir"""
 if 10 > 5 :
     print("Esta linea esta dentro del if")
     print("Esta linea tambien esta dentro del if")
 print("esta linea esta fuera del if y se va imprimir siempre")
 
+
+"""ahora, las dos primeras no se van a imprimir porque no se cumple la regla, pero si se va imprimir la que esta afuera"""
 if 10 > 20 :
     print("Esta linea esta dentro del if")
     print("Esta linea tambien esta dentro del if")
